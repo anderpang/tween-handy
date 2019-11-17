@@ -1,0 +1,30 @@
+{
+  "name": "tween-handy",
+  "version": "1.0.0",
+  "main": "dist/TweenHandy.js",
+  "types":"dist/TweenHandy.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tween",
+    "animation"
+  ],
+  "author": "anderpang@foxmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-tsc": "^1.3.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {},
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anderpang/tween-handy.git"
+  },
+  "homepage": "https://github.com/anderpang/tween-handy/"
+}
