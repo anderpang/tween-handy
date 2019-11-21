@@ -4,9 +4,9 @@ interface IFromTo {
 declare class TweenHandy {
     static VERSION: string;
     static Easing: object;
-    static pause: (timeStamp: number) => TweenHandy;
-    static play: (timeStamp: number) => TweenHandy;
-    static update: (timeStamp: number) => TweenHandy;
+    static pause: (timeStamp?: number | undefined) => TweenHandy;
+    static play: (timeStamp?: number | undefined) => TweenHandy;
+    static update: (timeStamp?: number | undefined) => TweenHandy;
     static _nullObject: any;
     static delay: (cb: Function, delay: number) => TweenHandy;
     static from: (target: object, from: IFromTo, duration?: number | object | undefined) => TweenHandy;
