@@ -440,7 +440,7 @@ class TweenHandy{
 
     static Easing:object=Easing;
 
-    static pause=function(timeStamp:number):TweenHandy{
+    static pause=function(timeStamp?:number):TweenHandy{
         var queues=playList.queues,
             i=queues.length,
             item;
@@ -454,7 +454,7 @@ class TweenHandy{
         }
         return this;
     };
-    static play=function(timeStamp:number):TweenHandy{
+    static play=function(timeStamp?:number):TweenHandy{
        var queues=playList.queues,
             i=queues.length,
             item;
@@ -469,7 +469,7 @@ class TweenHandy{
         }
         return this;
     };
-    static update=function(timeStamp:number):TweenHandy{
+    static update=function(timeStamp?:number):TweenHandy{
         var queues=playList.queues,
              i=queues.length,
              item;
